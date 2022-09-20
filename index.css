@@ -14,19 +14,20 @@ body {
 
 }
 .ellipses{
-    position: absolute;
-    z-index: -2;
+    position: fixed;
+    z-index: -3;
     top: 337px;
+    overflow: hidden;
 }
 .e1{
     opacity: 50%;
 }
 .ellipses2{
-    position: absolute;
+    position: fixed;
     z-index: -2;
-    top: 337px;
+    top: 587px;
     right: 0px;
-
+    overflow: hidden;
 }
 .e2{
     opacity: 50%;
@@ -512,7 +513,7 @@ td {
     }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 790px) and (min-width: 712px) {
     .table {
         width: 684px;
     }
@@ -575,7 +576,7 @@ td {
     }
 }
 
-@media (max-width: 675px) and (min-width: 648px) {
+@media (max-width: 711px) and (min-width: 648px) {
     .table {
         width: 592px;
     }
@@ -643,7 +644,7 @@ td {
     }
 }
 
-@media (max-width: 647px) and (min-width: 569px) {
+@media (max-width: 647px) and (min-width: 607px) {
     .table {
         width: 592px;
     }
@@ -716,7 +717,7 @@ td {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 606px) and (min-width: 526px) {
     .table {
         width: 477px;
     }
@@ -1054,6 +1055,12 @@ td {
     .choice{
         padding-bottom: 7px;
     }
+    .e1{
+        display: none;
+    }
+    .e2{
+        display: none;
+    }
 }
 @media (max-width: 422px) and (min-width: 363px) {
     .table {
@@ -1114,6 +1121,12 @@ td {
         padding-left: 10px;
         padding-right: 35px;
         cursor: pointer;
+    }
+    .e2{
+        display: none;
+    }
+    .e1{
+        display: none;
     }
     .linkto_u {
         display: flex;
@@ -1350,6 +1363,12 @@ td {
         display: none;
     }
     .vline{
+        display: none;
+    }
+    .e1{
+        display: none;
+    }
+    .e2{
         display: none;
     }
 }
