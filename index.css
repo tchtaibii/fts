@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     color: #FFFFFF;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 body {
     background-color: black;
@@ -56,7 +61,7 @@ body {
     height: 52px;
     border-radius: 50%;
     margin-left: 20px;
-
+    cursor: pointer;
 }
 .icon {
     margin: auto;
@@ -82,6 +87,7 @@ body {
     justify-content: center;
     margin-right: 50px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 .bord_i {
     display: flex;
@@ -367,6 +373,7 @@ td {
     padding-right: 10px;
     margin-top: 44px;
     margin-right: 14px;
+    cursor: pointer;
 
 }
 .vline{
@@ -400,5 +407,8 @@ td {
 }
 
 .choice:hover{
+    border-bottom: 2px solid #4A3AFF;
+}
+.choice::selection{
     border-bottom: 2px solid #4A3AFF;
 }
