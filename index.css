@@ -88,6 +88,7 @@ body {
     margin-right: 50px;
     padding-bottom: 10px;
     cursor: pointer;
+    box-sizing:border-box;
 }
 .bord_i {
     display: flex;
@@ -118,6 +119,7 @@ body {
     top : 478px;
     /* margin-top: 14px; */
     border: none;
+    z-index: -1;
 }
 .counter {
     display: flex;
