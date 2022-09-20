@@ -506,7 +506,7 @@ td {
         font-size: 12px;
     }
     .about_u p {
-        font-size: 10px;
+        font-size: 8px;
         line-height: 15px;
     }
     .choice h2 {
@@ -531,5 +531,23 @@ td {
         padding-left: 10px;
         padding-right: 35px;
         cursor: pointer;
+    }
+    .linkto_u {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: fit-content;
+        height: 40px;
+        background-color: #2F1DFF;
+        background: linear-gradient(155.98deg, #2F1DFF 13.91%, #6D60FF 100.59%);
+        border-radius: 32px;
+        padding-right: 5px;
+        margin-top: 44px;
+        margin-right: 9px;
+        cursor: pointer;
+    }
+    .vline {
+        margin: 0 5px;
     }
 }
