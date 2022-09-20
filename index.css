@@ -90,6 +90,15 @@ body {
     cursor: pointer;
     box-sizing:border-box;
 }
+#choice1 {
+    border-bottom: 2px solid #4A3AFF;
+}
+#choice2 {
+    border-bottom: 0px solid #4A3AFF;
+}
+#choice3 {
+    border-bottom: 0px solid #4A3AFF;
+}
 .bord_i {
     display: flex;
     flex-direction: row;
@@ -410,8 +419,4 @@ td {
 
     color: #FFFFFF;
     width: 100%;
-}
-
-.choice:hover{
-    border-bottom: 3px solid #4A3AFF;
 }
