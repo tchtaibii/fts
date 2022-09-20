@@ -10,8 +10,26 @@
     -ms-user-select: none;
 }
 body {
-    background-color: #121314;
+    background-color: #131415;
 
+}
+.ellipses{
+    position: absolute;
+    z-index: -2;
+    top: 337px;
+}
+.e1{
+    opacity: 50%;
+}
+.ellipses2{
+    position: absolute;
+    z-index: -2;
+    top: 337px;
+    right: 0px;
+
+}
+.e2{
+    opacity: 50%;
 }
 .container {
     display: flex;
