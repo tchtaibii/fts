@@ -334,6 +334,7 @@ td {
     height: 372px;
     background: #171819;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 .profile_j img{
     border-radius: 50%;
@@ -558,6 +559,7 @@ td {
     }
     .b1 {
         width: 577px;
+        margin-bottom: 27px;
     }
     .box3 {
         width: 570px;
@@ -693,29 +695,39 @@ td {
 }
 @media (max-width: 550px) and (min-width: 400px) {
     .table {
-        width: 592px;
+        width: 477px;
     }
     .b1 {
-        width: 577px;
+        width: 372px;
     }
     .box3 {
-        width: 570px;
+        width: 453px;
+        height: 317px;
     }
     .box p {
-        font-size: 12px;
+        font-size: 6px;
+        line-height: 15px;
     }
     .about_u p {
         font-size: 8px;
         line-height: 15px;
     }
+    .about_u h2{
+        font-size: 18px;
+        margin-bottom: -18px;
+    }
+    .about_u h3{
+        font-size: 15px;
+    }
     .choice h2 {
-        font-size: 8px;
+        font-size: 6px;
+        
     }
     .tag{
         font-size: 12px;
     }
     .std{
-        font-size: 12px;
+        font-size: 8px;
     }
     .counter {
         display: flex;
@@ -761,5 +773,17 @@ td {
     }
     .hr1{
         top: 463px; 
+    }
+    .visitew{
+        top: 10px;
+    }
+    .visitew p {
+        font-size: 12px;
+    }
+    .fast{
+        width: 112px;
+    }
+    .profile_j img {
+        width: 130px;
     }
 }
