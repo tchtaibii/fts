@@ -112,7 +112,7 @@ body {
 }
 
 .hr1 {
-    position: fixed;
+    position: absolute ;
     height: 1px;
     background-color: #262729;
     width: 100vw;
@@ -240,15 +240,14 @@ td {
     margin-top: 50px;
 }
 #content1 {
-    display: none;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
 }
 #content2 {
     display: none;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
