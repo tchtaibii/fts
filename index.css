@@ -111,9 +111,11 @@ body {
 }
 
 .hr1 {
+    position: fixed;
     height: 1px;
     background-color: #262729;
     width: 100vw;
+    top : 478px;
     /* margin-top: 14px; */
     border: none;
 }
@@ -302,9 +304,9 @@ td {
 .visitew p {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 23px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -410,5 +412,5 @@ td {
 }
 
 .choice:hover{
-    border-bottom: 2px solid #4A3AFF;
+    border-bottom: 3px solid #4A3AFF;
 }
