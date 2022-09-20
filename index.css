@@ -122,13 +122,14 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 118px;
+    /* margin-top: 118px; */
     width: 259px;
     height: 94px;
     background: #17181A;
     border-radius: 47px;
     padding-left: 10px;
     padding-right: 35px;
+    cursor: pointer;
 }
 
 .mail_c{
@@ -232,6 +233,7 @@ td {
     background-color: #171819;
     border-radius: 18px;
     margin-bottom: 100px;
+    margin-top: 50px;
 }
 #content1 {
     display: none;
@@ -242,14 +244,14 @@ td {
 }
 #content2 {
     display: none;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
 }
 #content3 {
-    /* display: none; */
-    display: flex;
+    display: none;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
@@ -295,6 +297,7 @@ td {
     border-radius: 32px;
     position: relative;
     top: 62px;
+    cursor: pointer;
 }
 .visitew p {
     font-family: 'Inter';
@@ -407,8 +410,5 @@ td {
 }
 
 .choice:hover{
-    border-bottom: 2px solid #4A3AFF;
-}
-.choice::selection{
     border-bottom: 2px solid #4A3AFF;
 }
