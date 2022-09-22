@@ -82,6 +82,14 @@ body {
     border-radius: 50%;
     margin-left: 20px;
     cursor: pointer;
+    transition-timing-function:cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    transition-duration:400ms;
+    transform:scale(1.1,1.1) translate3d(0,0,0);
+}
+
+.ellipse:hover
+{
+    transform:scale(1.2,1.2) translate3d(0,0,0);
 }
 .icon {
     margin: auto;
